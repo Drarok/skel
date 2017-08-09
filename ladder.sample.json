@@ -1,0 +1,15 @@
+{
+    "db": {
+        "host": "localhost",
+        "dbname": "skel",
+        "charset": "utf8",
+        "username": "root",
+        "password": ""
+    },
+    "migrations": [
+        {
+            "namespace": "Skel\\Migration",
+            "path":      "src/Skel/Migration"
+        }
+    ]
+}

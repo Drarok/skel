@@ -1,0 +1,23 @@
+{
+    "name": "drarok/skel",
+    "description": "Skeleton app using Silex, Supermodel, and Ladder",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mat Gadd",
+            "email": "source@catchall.drarok.com"
+        }
+    ],
+    "require": {
+        "zerifas/supermodel": "^1.3",
+        "zerifas/ladder": "^2.3",
+        "twig/twig": "^1.0",
+        "silex/silex": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skel\\": "src/Skel/"
+        }
+    }
+}

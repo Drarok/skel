@@ -1,0 +1,12 @@
+{
+  "db": {
+    "host": "localhost",
+    "dbname": "skel",
+    "charset": "utf8",
+    "username": "root",
+    "password": ""
+  },
+  "models": {
+    "namespace": "Skel\\Model"
+  }
+}
