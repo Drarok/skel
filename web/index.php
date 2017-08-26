@@ -6,7 +6,6 @@ use Symfony\Component\HttpFoundation\Request;
 
 use Zerifas\Supermodel\AbstractModel;
 
-use Skel\Controller\HomeController;
 use Skel\Service\FlashService;
 
 define('APP_ROOT', realpath(__DIR__ . '/../'));
@@ -34,8 +33,6 @@ $app['controllers']->before(function (Request $request) use ($app) {
     $twig->addGlobal('current_path', $request->getPathInfo());
 });
 
-$app->match('/', HomeController::class . '::indexAction')
-    ->method('GET')
-    ->bind('home');
+require APP_ROOT . '/src/app.php';
 
 $app->run();

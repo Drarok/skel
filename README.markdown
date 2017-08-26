@@ -13,5 +13,6 @@ This is a ready-to-roll skeleton app using:
 * Clone this repository
 * Copy and edit the sample config files (`/supermodel.sample.json`, `/ladder.sample.json`, and `/config/db.sample.json`)
 * Create your own controllers and other classes either in the Skel namespace, or your own (don't forget to update `composer.json` if you create your own)
-* Remove the example `HomeController`
+* Register your routes in `src/app.php`
+* (Optional) Remove the example `HomeController`
 * Enjoy!
