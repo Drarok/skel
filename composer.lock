@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "601f4f7cbb9b18b9481365f69b36972f",
+    "content-hash": "d144100ff87c6709a15b4d5dbcfa4082",
     "packages": [
         {
             "name": "pimple/pimple",
@@ -560,16 +560,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "f29dca382a6485c3cbe6379f0c61230167681937"
+                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f29dca382a6485c3cbe6379f0c61230167681937",
-                "reference": "f29dca382a6485c3cbe6379f0c61230167681937",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
+                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
                 "shasum": ""
             },
             "require": {
@@ -581,7 +581,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -615,7 +615,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T14:24:12+00:00"
+            "time": "2017-06-14T15:44:48+00:00"
         },
         {
             "name": "symfony/routing",
@@ -975,16 +975,16 @@
         },
         {
             "name": "zerifas/supermodel",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Drarok/supermodel.git",
-                "reference": "e6ffc6e5de30e0afde1059048cc1405b30035d7f"
+                "reference": "9cb88e3c2ed92d788976b151d1ef89a809670ff0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Drarok/supermodel/zipball/e6ffc6e5de30e0afde1059048cc1405b30035d7f",
-                "reference": "e6ffc6e5de30e0afde1059048cc1405b30035d7f",
+                "url": "https://api.github.com/repos/Drarok/supermodel/zipball/9cb88e3c2ed92d788976b151d1ef89a809670ff0",
+                "reference": "9cb88e3c2ed92d788976b151d1ef89a809670ff0",
                 "shasum": ""
             },
             "require": {
@@ -1016,7 +1016,7 @@
                 }
             ],
             "description": "A super-simple model class.",
-            "time": "2016-10-06T11:30:50+00:00"
+            "time": "2017-08-24T21:20:18+00:00"
         }
     ],
     "packages-dev": [],
